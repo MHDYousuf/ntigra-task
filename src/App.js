@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Complaints from "./components/Complaints";
+import ICD from "./components/ICD";
+import InputDetails from "./components/InputDetails";
+import NationalityInput from "./components/NationalityInput";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="container-fluid">
+        <form>
+          <div className="row">
+            <div className="col-md-12 mb-4">
+              <div className="row">
+                <div className="col-md-9">
+                  <InputDetails />
+                </div>
+                <div className="col-md-3">
+                  <NationalityInput />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <Complaints />
+            </div>
+            <div className="col-md-6">
+              <ICD />
+            </div>
+          </div>
+        </form>
+      </div>
+    </>
   );
 }
 

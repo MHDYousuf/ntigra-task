@@ -1,0 +1,18 @@
+.input-container label{
+  font-size: 12px;
+}
+.input-container .input-wrap{
+  display: flex;  
+  align-items: flex-end;
+}
+.input-container .input-wrap input{
+  max-width: 60px;
+  border-radius: 4px;
+  outline: 0.2px;
+  border: 1px solid #000;
+}
+.input-container .input-wrap span{
+  font-size: 14px;
+  color: #777;
+  margin-left: 5px;
+}
