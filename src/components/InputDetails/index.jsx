@@ -12,7 +12,7 @@ function InputDetails() {
     const [dataValue, setDataValue] = React.useState(value)
 
     return (
-      <div className='col-md-2 input-container'>
+      <div className='col-md-2 col-sm-3 col-3 input-container'>
         <label>{label}</label>
         <div className='input-wrap'><input type="text" value={dataValue} onChange={(e)=>{
           setDataValue(e.target.value)

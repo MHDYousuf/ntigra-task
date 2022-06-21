@@ -86,7 +86,7 @@ function ICD() {
           />
         </div>
       </div>
-      <div className="col-md-12 mt-2">
+      <div className="col-md-12 mt-2 table-responsive">
         <table className="table table-bordered">
           <thead>
             <tr>
