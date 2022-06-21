@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ntigra-task/static/css/main.94e893c0.css",
+    "main.js": "/ntigra-task/static/js/main.36fa43a7.js",
+    "index.html": "/ntigra-task/index.html",
+    "main.94e893c0.css.map": "/ntigra-task/static/css/main.94e893c0.css.map",
+    "main.36fa43a7.js.map": "/ntigra-task/static/js/main.36fa43a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94e893c0.css",
+    "static/js/main.36fa43a7.js"
+  ]
+}
